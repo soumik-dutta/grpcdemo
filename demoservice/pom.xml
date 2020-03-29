@@ -87,7 +87,21 @@
                     </execution>
                 </executions>
             </plugin>
+            <!--            creating docker images   -->
+            <plugin>
+                <groupId>io.fabric8</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>0.16.7</version>
+                <configuration>
+                    <images>
+                        <image>
+                            <name>sixt/demoservice:${project.version}</name>
+                        </image>
+                    </images>
+                </configuration>
+            </plugin>
         </plugins>
+        <finalName>demoservice</finalName>
     </build>
 
 </project>

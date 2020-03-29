@@ -13,7 +13,7 @@ public class DemoServiceClientProxy {
     ManagedChannel channel;
     @PostConstruct
     private void postConstruct(){
-        channel = ManagedChannelBuilder.forAddress("localhost", 8081)
+        channel = ManagedChannelBuilder.forAddress("demoservice", 8081)
                 .usePlaintext()
                 .build();
     }
