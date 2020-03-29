@@ -2,6 +2,9 @@ kind: Service
 apiVersion: v1
 metadata:
   name: demoservice-service
+  annotations:
+    service.beta.kubernetes.io/do-loadbalancer-protocol: "http2"
+    service.beta.kubernetes.io/do-loadbalancer-algorithm: "least_connections"
 spec:
   selector:
     app: demoservice
