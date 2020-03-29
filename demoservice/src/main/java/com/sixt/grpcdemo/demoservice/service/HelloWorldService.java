@@ -4,7 +4,6 @@ package com.sixt.grpcdemo.demoservice.service;
 import com.sixt.demoservice.DemoserviceGrpc;
 import com.sixt.demoservice.DemoserviceOuterClass;
 import io.grpc.stub.StreamObserver;
-import lombok.extern.slf4j.Slf4j;
 
 
 public class HelloWorldService extends DemoserviceGrpc.DemoserviceImplBase {

@@ -9,6 +9,7 @@ import java.io.IOException;
 
 public class DemoserviceApplication {
     public static void main(String[] args) throws IOException, InterruptedException {
+        System.out.println("Staring Demoserver :8081");
         Server server = ServerBuilder
                 .forPort(8081)
                 .addService(new HelloWorldService()).build();

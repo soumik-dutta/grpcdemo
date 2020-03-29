@@ -18,4 +18,25 @@
 	<name>grpcdemo</name>
 	<description>Testing GRPC in kubernetes</description>
 	<packaging>pom</packaging>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.6.0</version>
+				<executions>
+					<execution>
+						<id>my-exec</id>
+						<phase>post-site</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<executable>${project.basedir}/script/docker-auto.sh</executable>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
