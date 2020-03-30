@@ -3,6 +3,7 @@
     <option name="generalSettings">
       <GeneralSettings>
         <option name="enableInternalFeatures" value="false" />
+        <option name="macAddress" value="F0-18-98-24-B4-61" />
       </GeneralSettings>
     </option>
   </component>
