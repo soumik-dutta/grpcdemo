@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="V2__create_operations_service_company_table" type="DBN-SQL" />
+      <mapping pattern="create_branch_subcontractor_users_database.sh" type="PLAIN_TEXT" />
+      <mapping pattern="V13__modify_contract_conditions" type="SQL" />
+    </extensionMap>
+  </component>
+</application>
