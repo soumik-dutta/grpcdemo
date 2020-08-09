@@ -12,7 +12,7 @@
           <list>
             <SdkInfo>
               <option name="sdkType" value="ODPS_CMD" />
-              <option name="version" value="0.32.1-public" />
+              <option name="version" value="0.33.1-public" />
               <option name="installedLocation" value="$APPLICATION_PLUGINS_DIR$/odps-studio-intellij/odpscmd_public" />
               <option name="isDefault" value="true" />
             </SdkInfo>
