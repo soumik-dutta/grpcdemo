@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="kls.json" type="AUTO_DETECTED" />
       <mapping pattern="V2__create_operations_service_company_table" type="DBN-SQL" />
       <mapping pattern="V26__add_task_parameter" type="DBN-SQL" />
       <mapping ext="main.kts" type="Kotlin" />
