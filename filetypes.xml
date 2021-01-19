@@ -4,6 +4,7 @@
       <mapping pattern="kls.json" type="AUTO_DETECTED" />
       <mapping pattern="V2__create_operations_service_company_table" type="DBN-SQL" />
       <mapping pattern="V26__add_task_parameter" type="DBN-SQL" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="create_branch_subcontractor_users_database.sh" type="PLAIN_TEXT" />
       <mapping pattern="V13__modify_contract_conditions" type="SQL" />
