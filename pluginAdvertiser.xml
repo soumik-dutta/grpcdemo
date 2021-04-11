@@ -86,8 +86,8 @@
         <entry key="*.csv">
           <value>
             <plugin>
-              <option name="myPluginId" value="com.andrey4623.rainbowcsv" />
-              <option name="myPluginName" value="Rainbow CSV" />
+              <option name="myPluginId" value="net.seesharpsoft.intellij.plugins.csv" />
+              <option name="myPluginName" value="CSV Plugin" />
             </plugin>
           </value>
         </entry>
