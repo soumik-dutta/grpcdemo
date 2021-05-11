@@ -2,7 +2,6 @@
   <component name="SpaceServerConfigurable">
     <option name="serverSettings">
       <SpaceServerSettings>
-        <option name="enabled" value="true" />
         <option name="server" value="https://soumik.jetbrains.space" />
       </SpaceServerSettings>
     </option>
