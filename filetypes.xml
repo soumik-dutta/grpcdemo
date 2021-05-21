@@ -1,0 +1,16 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="kls.json" type="AUTO_DETECTED" />
+      <mapping pattern="V2__create_operations_service_company_table" type="DBN-SQL" />
+      <mapping pattern="V26__add_task_parameter" type="DBN-SQL" />
+      <mapping ext="space.kts" type="Kotlin" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="create_branch_subcontractor_users_database.sh" type="PLAIN_TEXT" />
+      <mapping pattern="V13__modify_contract_conditions" type="SQL" />
+      <removed_mapping ext="xls" approved="true" type="Native" />
+      <removed_mapping ext="xlsx" approved="true" type="Native" />
+    </extensionMap>
+  </component>
+</application>
