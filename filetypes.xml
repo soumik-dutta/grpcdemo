@@ -1,8 +1,10 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="V1__Create_appraisal_tables.sql" type="AUTO_DETECTED" />
       <mapping pattern="kls.json" type="AUTO_DETECTED" />
       <mapping pattern="V2__create_operations_service_company_table" type="DBN-SQL" />
+      <mapping pattern="V1__Create_appraisal_tables" type="DBN-SQL" />
       <mapping pattern="V26__add_task_parameter" type="DBN-SQL" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
