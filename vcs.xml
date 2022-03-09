@@ -14,6 +14,10 @@
           <option name="url" value="http://bitbucket.org" />
           <option name="userName" value="dutta_soumik" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@bitbucket.org:dutta_soumik/pring.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
