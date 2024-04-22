@@ -10,12 +10,11 @@ docker rm  $(docker ps -a -q  --filter ancestor=gateway:latest)
 docker rmi demoservice
 docker rmi gateway
 # build gateway image
-cd gateway
-cd ../gateway
-docker build -t gateway:latest .
+cd ../gateway || exit
+docker buildx build -t gateway:latest .
 # build demoserver image
-cd ../demoservice
-docker build -t demoservice:latest .
+cd ../demoservice || exit
+docker buildxbuild -t demoservice:latest .
 # run demoserver container
 echo 'create and run new container from image'
 docker run -d -p 8081:8081 --name demoservice demoservice:latest

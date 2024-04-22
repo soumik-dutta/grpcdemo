@@ -3,10 +3,10 @@ package com.sixt.grpcdemo.gateway.client;
 import com.sixt.demoservice.DemoserviceGrpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
 
 @Service
 public class DemoServiceClientProxy {
